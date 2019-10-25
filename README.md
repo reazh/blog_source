@@ -1,2 +1,2 @@
-# reaz82.github.io
+# reazh.github.io
 Blog repository
