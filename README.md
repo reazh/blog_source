@@ -1,2 +1,2 @@
 # reazh.github.io
-Blog repository
+Blog Deploy repository
