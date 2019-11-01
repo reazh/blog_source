@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>reazh::middle of the code - git</title>
+        <link rel="stylesheet" href="reazh.github.io/theme/css/main.css" />
+        <link href="reazh.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="reazh::middle of the code Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="reazh.github.io/">reazh::middle of the code </a></h1>
+                <nav><ul>
+                    <li><a href="reazh.github.io/pages/about-me.html">About me</a></li>
+                    <li><a href="reazh.github.io/pages/contact.html">Contact</a></li>
+                    <li><a href="reazh.github.io/category/general.html">General</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="reazh.github.io/first-post.html">My first blog post!</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-10-31T13:51:00-04:00">
+                Published: Thu 31 October 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="reazh.github.io/author/reaz-h.html">Reaz H.</a>
+        </address>
+<p>In <a href="reazh.github.io/category/general.html">General</a>.</p>
+<p>tags: <a href="reazh.github.io/tag/pelican.html">pelican</a> <a href="reazh.github.io/tag/publishing.html">publishing</a> <a href="reazh.github.io/tag/github.html">github</a> <a href="reazh.github.io/tag/git.html">git</a> </p>
+</footer><!-- /.post-info --><p>This is the content of my first blog post. I used the tutorial at <a href="https://www.thedigitalcatonline.com/blog/2019/06/07/run-a-pelican-blog/">TheDigitalCat's</a> blog to set up this blog. While I am not a novice at versioning nor git, I received a refresher and learned a thing or two in the process.</p>
+<p>TheDigitalCat has published a Pelican template on Github. Using the Cookiecutter package, one can replicate the templateand get a blog up and running in no time. However, as usual I ran into some issues. Here's what I learned:</p>
+<ul>
+<li><strong>Be aware of your private network limitations:</strong> I tried to set this up at work and for the longest time I could not push the blog onto GitHub. I realized eventually that the issue maybe that external ssh access may be blocked (with good reason). </li>
+<li><strong>Make certain to have a valid ssh key registered with GitHub:</strong> Use the instructions on <a href="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">GitHub</a> to setup and store your ssh key. This will enable you to <code>git push</code> code to your repository.</li>
+<li><strong>Always have a separate <strong><em>develop</em></strong> and <strong><em>deploy</em></strong> workspace:</strong> <a href="https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">TheDigitalCat</a> uses this method to keep his production blog code clean from development bugs, etc. All the development code is tested using a local server. Once the blog post/page looks ideal, they are committed to the repository and pushed to GitHub from where they are served. </li>
+</ul>
+<p>I am still finding my way around Pelican and Markdown. In days to come, I hope to update some of these posts and pages. I will be linking my repositories on GitHub with explanations soon. While I created this blog to showcase all things related to topics in Computer Science and Engineering, I will also post about unrelated topics as they catch my interest. </p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="reazh.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="http://www.linkedin.com/in/reazh">LinkedIn</a></li>
+                            <li><a href="http://github.com/reazh">GitHub</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
